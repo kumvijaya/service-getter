@@ -48,7 +48,7 @@
     {
         "job" : "rmi-ln-job-ui",
         "parameters" : {
-            "env" : "TEST",
+            "env" : "test",
             "componentId": "test-component",
             "lnPattern": "test-ln-pattern"
         }
