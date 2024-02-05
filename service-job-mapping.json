@@ -2,55 +2,127 @@
     "RMI Core API": {
         "job": "rmi-core-job-api",
         "parameters": {
-            "version": "{{VERSION}}",
-            "env": "dev",
-            "componentId": "test-component",
-            "buildData": "test-build-data"
+            "version": {
+                "type": "string",
+                "value": "{{VERSION}}"
+            },
+            "env": {
+                "type": "string",
+                "value": "dev"
+            },
+            "componentId": {
+                "type": "string",
+                "value": "test"
+            },
+            "buildData": {
+                "type": "string",
+                "value": "data"
+            }
         }
     },
     "RMI Core UI": {
         "job": "rmi-core-ui",
         "parameters": {
-            "versionNumber": "{{VERSION}}",
-            "env": "dev",
-            "componentId": "test-component",
-            "uiModel": "test-model"
+            "version": {
+                "type": "string",
+                "value": "{{VERSION}}"
+            },
+            "env": {
+                "type": "string",
+                "value": "dev"
+            },
+            "componentId": {
+                "type": "string",
+                "value": "test"
+            },
+            "buildData": {
+                "type": "string",
+                "value": "data"
+            }
         }
     },
     "RMI Workflow UI": {
         "job": "rmi-workflow-ui",
         "parameters": {
-            "versionNum": "{{VERSION}}",
-            "env": "dev",
-            "componentId": "test-component",
-            "uiModel": "workflow-model"
+            "version": {
+                "type": "string",
+                "value": "{{VERSION}}"
+            },
+            "env": {
+                "type": "string",
+                "value": "dev"
+            },
+            "componentId": {
+                "type": "string",
+                "value": "test"
+            },
+            "buildData": {
+                "type": "string",
+                "value": "data"
+            }
         }
     },
     "RMI Workflow API": {
         "job": "rmi-workflow-job-api",
         "parameters": {
-            "ver": "{{VERSION}}",
-            "env": "dev",
-            "componentId": "test-component",
-            "workflowPattern": "workflow-test-pattern"
+            "version": {
+                "type": "string",
+                "value": "{{VERSION}}"
+            },
+            "env": {
+                "type": "string",
+                "value": "dev"
+            },
+            "componentId": {
+                "type": "string",
+                "value": "test"
+            },
+            "buildData": {
+                "type": "string",
+                "value": "data"
+            }
         }
     },
     "RMI Core API-LN": {
         "job": "rmi-ln-workflow-api",
         "parameters": {
-            "version": "{{VERSION}}",
-            "env": "qa",
-            "componentId": "test-component",
-            "lnPattern": "test-ln-pattern"
+            "version": {
+                "type": "string",
+                "value": "{{VERSION}}"
+            },
+            "env": {
+                "type": "string",
+                "value": "dev"
+            },
+            "componentId": {
+                "type": "string",
+                "value": "test"
+            },
+            "buildData": {
+                "type": "string",
+                "value": "data"
+            }
         }
     },
     "RMI Core UI-LN": {
         "job": "rmi-ln-job-ui",
         "parameters": {
-            "version": "{{VERSION}}",
-            "env": "test",
-            "componentId": "test-component",
-            "lnPattern": "test-ln-pattern"
+            "version": {
+                "type": "string",
+                "value": "{{VERSION}}"
+            },
+            "env": {
+                "type": "string",
+                "value": "dev"
+            },
+            "componentId": {
+                "type": "string",
+                "value": "test"
+            },
+            "buildData": {
+                "type": "string",
+                "value": "data"
+            }
         }
     }
 }
