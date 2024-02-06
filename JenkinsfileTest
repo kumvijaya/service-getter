@@ -1,0 +1,16 @@
+import hudson.model.BooleanParameterValue
+import hudson.model.StringParameterValue
+import hudson.model.ParameterValue
+
+node {
+       build(job: 'rmi-core-job-api', parameters: getJobParamters(), propagate: false)
+    }
+    
+def getJobParamters() {
+    def jobParameters = []
+    jobParameters.add(new StringParameterValue('version', '1234'))
+    jobParameters.add(new StringParameterValue('env', 'dev'))
+    jobParameters.add(new StringParameterValue('isOk', 'true'))
+    jobParameters.add(new StringParameterValue('selectOne', 'Two'))
+    return jobParameters
+}

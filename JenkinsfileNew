@@ -44,28 +44,10 @@ node {
 
 def getJobParamters(serviceConf, version) {
     def jobParameters = []
-    Map parameters = serviceConf.parameters
-    for (key, value in parameters) {
-        String paramName = key
-        Map valueInfo = value
-        String paramType = valueInfo.type
-        String paramValue = valueInfo.value.replace('{{VERSION}}', version)
-        jobParameters.add(getJobParameter(paramType, paramName, paramValue))
+    Map parameterMap = serviceConf.parameters
+    for (key, val in parameterMap) {
+        String replacedVal = value.value.replace('{{VERSION}}', version)
+        jobParameters.add(new StringParameterValue(key, replacedVal))
     }
     return jobParameters
 }
-
-def getJobParameter(paramType, paramName, paramValue) {
-    def jobParam = null
-    switch(paramType) {
-        case 'string':
-            jobParam = new StringParameterValue(paramName, paramValue)
-        // case 'choice':
-        //     jobParam = new ChoiceParameterValue(paramName, paramValue)
-        // case 'boolean':
-        //     jobParam = new BooleanParameterValue(paramName, paramValue)
-    }
-    return jobParam
-}
-```
-

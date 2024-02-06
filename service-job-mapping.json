@@ -2,127 +2,55 @@
     "RMI Core API": {
         "job": "rmi-core-job-api",
         "parameters": {
-            "version": {
-                "type": "string",
-                "value": "{{VERSION}}"
-            },
-            "env": {
-                "type": "string",
-                "value": "dev"
-            },
-            "componentId": {
-                "type": "string",
-                "value": "test"
-            },
-            "buildData": {
-                "type": "string",
-                "value": "data"
-            }
+            "version": "{{VERSION}}",
+            "env": "dev",
+            "isOk": "true",
+            "selectOne": "Two"
         }
     },
     "RMI Core UI": {
         "job": "rmi-core-ui",
         "parameters": {
-            "version": {
-                "type": "string",
-                "value": "{{VERSION}}"
-            },
-            "env": {
-                "type": "string",
-                "value": "dev"
-            },
-            "componentId": {
-                "type": "string",
-                "value": "test"
-            },
-            "buildData": {
-                "type": "string",
-                "value": "data"
-            }
+            "version": "{{VERSION}}",
+            "env": "dev",
+            "isOk": "true",
+            "selectOne": "Two"
         }
     },
     "RMI Workflow UI": {
         "job": "rmi-workflow-ui",
         "parameters": {
-            "version": {
-                "type": "string",
-                "value": "{{VERSION}}"
-            },
-            "env": {
-                "type": "string",
-                "value": "dev"
-            },
-            "componentId": {
-                "type": "string",
-                "value": "test"
-            },
-            "buildData": {
-                "type": "string",
-                "value": "data"
-            }
+            "version": "{{VERSION}}",
+            "env": "dev",
+            "isOk": "true",
+            "selectOne": "Two"
         }
     },
     "RMI Workflow API": {
         "job": "rmi-workflow-job-api",
         "parameters": {
-            "version": {
-                "type": "string",
-                "value": "{{VERSION}}"
-            },
-            "env": {
-                "type": "string",
-                "value": "dev"
-            },
-            "componentId": {
-                "type": "string",
-                "value": "test"
-            },
-            "buildData": {
-                "type": "string",
-                "value": "data"
-            }
+            "version": "{{VERSION}}",
+            "env": "dev",
+            "isOk": "true",
+            "selectOne": "Two"
         }
     },
     "RMI Core API-LN": {
         "job": "rmi-ln-workflow-api",
         "parameters": {
-            "version": {
-                "type": "string",
-                "value": "{{VERSION}}"
-            },
-            "env": {
-                "type": "string",
-                "value": "dev"
-            },
-            "componentId": {
-                "type": "string",
-                "value": "test"
-            },
-            "buildData": {
-                "type": "string",
-                "value": "data"
-            }
+            "version": "{{VERSION}}",
+            "env": "dev",
+            "isOk": "true",
+            "selectOne": "Two"
         }
     },
     "RMI Core UI-LN": {
         "job": "rmi-ln-job-ui",
         "parameters": {
-            "version": {
-                "type": "string",
-                "value": "{{VERSION}}"
-            },
-            "env": {
-                "type": "string",
-                "value": "dev"
-            },
-            "componentId": {
-                "type": "string",
-                "value": "test"
-            },
-            "buildData": {
-                "type": "string",
-                "value": "data"
-            }
+            "version": "{{VERSION}}",
+            "env": "dev",
+            "isOk": "true",
+            "selectOne": "Two"
         }
     }
 }
